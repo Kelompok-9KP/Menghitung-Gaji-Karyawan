@@ -32,3 +32,11 @@ elif anak > 1:
   print("Sudah Menikah")
   
 print ("\n\n=============================")
+print ("\nNama pegawai					: ",nama)
+print ("mulai kerja					: ",awal)
+print ("akhir kerja					: ",akhir)
+print ("jam kerja					:  9 s/d ",kerja)
+print ("perbulan					: Rp. ",tgb)
+print ("pertahun					: Rp. ",tgt)
+print ("total gaji diterima adalah			: Rp. ",tga)
+print ("")
