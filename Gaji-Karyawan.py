@@ -23,6 +23,8 @@ elif golongan == "C":
 	print("Jabatan = Superviser")
 elif golongan == "D":
 	print("Jabatan = Operator")
+else:
+	print("tingkatan tidak tersedia")
 
 if anak < 1:
   print ("Jomblo akut")
