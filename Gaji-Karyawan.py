@@ -3,7 +3,7 @@ print ("      Aplikasi Penggajian Karyawan")
 print ("=========================================")
 
 nama = str(input("nama pegawai :"))
-golongan = str(input("golongan :"))
+tingaktan = str(input("tingkatan :"))
 awal = int(input("tahun awal bekerja :"))
 akhir = int(input("habis kontrak :"))
 gapok = int(input("gaji pokok :"))
