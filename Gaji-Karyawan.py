@@ -7,21 +7,21 @@ golongan = str(input("golongan :"))
 awal = int(input("tahun awal bekerja :"))
 akhir = int(input("habis kontrak :"))
 gapok = int(input("gaji pokok :"))
-jam = int(input("jam per hari bekerja :"))
+jam = int(input("jmlh jam bekerja :"))
 hari = int(input("jmlh hari bekerja :"))
 anak = int(input("jmlh anak :"))
 kerja = 9+jam 
-tgb = (hari*jam)*(anak*25000)
+tgb = (gapok/hari*jam)+(anak*50000)
 tgt = tgb*12
 tga = tgt*(akhir-awal)
 
-if Golongan == "A":
+if golongan == "A":
 	print("jabatan = Direktur")
-elif Golongan == "B":
+elif golongan == "B":
 	print("Jabatan = Manager")
-elif Golongan == "C":
+elif golongan == "C":
 	print("Jabatan = Superviser")
-elif Golongan == "D":
+elif golongan == "D":
 	print("Jabatan = Operator")
 
 if anak < 1:
